@@ -1,0 +1,1 @@
+php vendor/bin/codecept run

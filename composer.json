@@ -1,12 +1,13 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "petflow/laravel-5-api-boilerplate",
+	"description": "A Laravel 5 API boilerplate.",
+	"keywords": ["laravel", "boilerplate", "api"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*@dev",
-		"league/fractal": "0.11.*@dev"
+		"league/fractal": "0.11.*@dev",
+		"janhenkgerritsen/codeception-laravel5": "~1.0"
 
 	},
 	"require-dev": {

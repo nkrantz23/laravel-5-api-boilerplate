@@ -1,0 +1,7 @@
+{
+   "config":{
+      "github-oauth":{
+         "github.com":"<place oauth token here>"
+      }
+   }
+}

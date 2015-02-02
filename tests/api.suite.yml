@@ -1,0 +1,10 @@
+class_name: ApiTester
+modules:
+    enabled: [Laravel5, REST, ApiHelper, Asserts]
+    config:
+        Laravel5:
+            environment_file: .env.testing
+        PhpBrowser:
+            url: http://127.0.0.1:8000/
+        REST:
+            url: http://127.0.0.1:8000/api/v1/
