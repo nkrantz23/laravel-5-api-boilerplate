@@ -6,12 +6,14 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*@dev",
-		"league/fractal":    "0.11.*@dev"
+		"league/fractal": "0.11.*@dev"
+
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
 		"codeception/codeception": "2.1.*@dev",
-		"league/factory-muffin": "3.0.*@dev"
+		"league/factory-muffin": "3.0.*@dev",
+		"league/oauth2-client": "0.7.*@dev"
 	},
 	"autoload": {
 		"classmap": [
