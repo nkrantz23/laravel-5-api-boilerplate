@@ -10,3 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::group(['prefix' => 'v1'], function () {
+    Route::resource('sample', 'SampleController', ['only' => ['index', 'show']]);
+});
