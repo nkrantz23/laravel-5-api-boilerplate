@@ -5,12 +5,13 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "5.0.*@dev",
+		"laravel/framework": "laravel/framework 5.2.*",
 		"league/fractal": "0.11.*@dev",
 		"janhenkgerritsen/codeception-laravel5": "~1.0"
-
 	},
 	"require-dev": {
+        "symfony/dom-crawler": "~3.0",
+        "symfony/css-selector": "~3.0",
 		"phpunit/phpunit": "~4.0",
 		"codeception/codeception": "2.1.*@dev",
 		"league/factory-muffin": "3.0.*@dev",
